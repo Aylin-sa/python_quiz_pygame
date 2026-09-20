@@ -21,3 +21,6 @@ elif score == len(questions):
     print("exellent job" , name)
 else:
     print("keep peacticing", name)
+
+with open("rezult.txt", "a") as file:
+    file.write(f"{name} - {score}/{len(questions)}\n")
