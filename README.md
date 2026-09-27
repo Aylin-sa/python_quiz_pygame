@@ -4,7 +4,7 @@ A symple quiz game buld with python
 ## Table of contents
 
 
- - [Table of contents](#table-of-contents)
+
   - [Features](#features)
   - [Project Structure](#project-structure)
   - [Requirment](#requirment)
@@ -12,6 +12,7 @@ A symple quiz game buld with python
   - [Envoirment Setup](#envoirment-setup)
   - [Usage](#usage)
   - [Example Output](#example-output)
+  - [Screen Shut](#screen-shut)
   - [Roadmap](#roadmap)
   - [Cantrubuting](#cantrubuting)
   - [Licence](#licence)
@@ -118,6 +119,16 @@ your score is :  3 out of 3
 exellent job aylin
 
 ```
+## Screen Shut
+
+### start game
+![start game](pictures/1.png)
+
+### QUIZ 
+![start game](pictures/2.png)
+
+### final score
+![start game](pictures/3.png)
 
 ## Roadmap
 - [x] add multiple quiz question
