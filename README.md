@@ -1,5 +1,4 @@
 # Python Quiz Game
-
 ![Static Badge](https://img.shields.io/badge/python-3.13-%20pink)
 
 A symple quiz game buld with python 
