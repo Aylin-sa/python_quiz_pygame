@@ -1,4 +1,7 @@
-# opthon Quiz Game
+# Python Quiz Game
+
+![Static Badge](https://img.shields.io/badge/python-3.13-%20pink)
+
 A symple quiz game buld with python 
 
 ## Table of contents
@@ -35,22 +38,41 @@ A symple quiz game buld with python
 ## Project Structure
 
 ```text 
-python_quiz_pygame/
-|   .env.example
-|   .gitignore
-|   requirements.txt
-|   main.py
-|   question.py
-|   README.md
+python_quz_pygame
+├── ./README.md
+├── ./__pycache__
+│   ├── ./__pycache__/question.
+├── ./app.log
+├── ./debug.log
+├── ./error.log
+├── ./gifs
+│   └── ./gifs/quiz_demo.gif
+├── ./main.py
+├── ./pictures
+│   ├── ./pictures/1.png
+│   ├── ./pictures/2.png
+│   └── ./pictures/3.png
+├── ./question.py
+├── ./requirements.txt
+└── .
+
 ```
 ### File description
-- `main.py` - main file used to run quiz game
-- `question.py` - stores question and snwer
-- `.env.example` -shows the envirment variables needed byt the project
-- `requirements.txt`list the python package needed for the project 
-- `gitignore` - talls git witch fils and folder shold
-- not be tracked
-- `README` - contains the project documenttion
+  |file|describtion|
+  | --- | --- |
+| `main.py` | main file used to run quiz game|
+| `question.py` | stores question and snwer|
+| `.env.example` | shows the envirment variables needed byt the project|
+| `requirements.txt` | list the python package needed for the project| 
+| `gitignore` | talls git witch fils and folder shold not be tracked|
+| `READ.md` | contains the project documenttion|
+|  `pictures/` | stores project screen shut|
+|  `pictures/1.png` | screenshut of the game start|
+|  `pictures/2.png` | screenshut of the quiz section |
+|  `pictures/3.png` | screenshut of the final rezult|
+| `gifs/` | store demo GIF files|
+| `gifs/demo.gif`| shows the project demo|
+
 ## Requirment
 Befor running the project , make sure you have :
 - `python 3`
@@ -129,6 +151,9 @@ exellent job aylin
 
 ### final score
 ![start game](pictures/3.png)
+
+## Demo 
+![quiz game demo](gifs/quiz_demo.gif)
 
 ## Roadmap
 - [x] add multiple quiz question
