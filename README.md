@@ -1,4 +1,4 @@
-# opthon Quiz Game
+# pthon Quiz Game
 A symple quiz game buld with python 
 
 ## Table of contents
